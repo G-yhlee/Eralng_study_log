@@ -13,10 +13,7 @@
 
      tutorial book
 + https://learnyousomeerlang.com/contents
-     + [[ erlang의 모듈 시스템 원본 ]] | [[ 번역 ]]
+     + ``` erlang의 모듈 시스템 ``` [[ 원본 ]] | [[ 번역 ]]
 
-
-
-
-[ erlang의 모듈 시스템]: https://learnyousomeerlang.com/modules
+[ 원본 ]: https://learnyousomeerlang.com/modules
 [ 번역 ]: /tutorial_book/module_system.md
