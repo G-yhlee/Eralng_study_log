@@ -10,7 +10,7 @@ git commit -m "i"
 
 ##### 깃 허브 저장소 생성
 > ...................................................................  
-git remote add origin https://github.com/G-yhlee/Erlang_study_log
+git remote add origin https://github.com/G-yhlee/Eralng_study_log.git
 git branch -M main
 git push -u origin main
 > ...................................................................  

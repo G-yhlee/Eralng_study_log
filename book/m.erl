@@ -1,8 +1,4 @@
-
-
-
-```erlang
--module(m). % 모듈 이름을 m으로 지정
+-module(m).
 -export([do_hello_world/0]).
 do_hello_world () -> io:fwrite("hello, world\n").
 
@@ -11,6 +7,3 @@ do_hello_world () -> io:fwrite("hello, world\n").
 % c(m).
 % m:do_hello_world().
 % init:stop().
-
-
-```
