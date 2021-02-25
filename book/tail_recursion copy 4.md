@@ -1,8 +1,8 @@
 
 ```erlang
--module(m).
--import(string,[len/1,concat/2,chr/2,substr/3,str/2,to_lower/1,to_upper/1]).
--compile(export_all).
+- module(m).
+- import(string,[len/1,concat/2,chr/2,substr/3,str/2,to_lower/1,to_upper/1]).
+- compile(export_all).
 
 % - export([main/1,main/2,sum3/1,sum2/2]).
 
@@ -23,6 +23,7 @@ hello_world() ->
 
 
 add(A,B) -> 
+    hello_world(), 
     A+B.
 
 info() ->

@@ -1,8 +1,8 @@
 
 ```erlang
--module(m).
--import(string,[len/1,concat/2,chr/2,substr/3,str/2,to_lower/1,to_upper/1]).
--compile(export_all).
+- module(m).
+- import(string,[len/1,concat/2,chr/2,substr/3,str/2,to_lower/1,to_upper/1]).
+- compile(export_all).
 
 % - export([main/1,main/2,sum3/1,sum2/2]).
 
@@ -16,13 +16,13 @@ main(X,Y) -> sum2(X,Y).
 what_is_atom()->
      atom_stuff == 'atom_stuff'.
 
-
 hello_world() -> 
     io:fwrite("hello, world\n"),
     io:fwrite("~p, ~p\n",[hello,world]).
 
 
 add(A,B) -> 
+    hello_world(), 
     A+B.
 
 info() ->
