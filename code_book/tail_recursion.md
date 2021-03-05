@@ -22,9 +22,6 @@ hello_world() ->
     io:fwrite("~p, ~p\n",[hello,world]).
 
 
-add(A,B) -> 
-    A+B.
-
 info() ->
     m:module_info().
 
@@ -33,12 +30,7 @@ do_math(A,B) ->
     random:uniform(10),
     A =:= B.
 
-do_case(X)->
-    case X of
-        french -> 'Bonjour';
-        german -> 'Gutentak';
-        english -> hello
-    end.
+.
 
 do_string() ->
     Str1 = "hello",
