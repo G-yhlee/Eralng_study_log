@@ -30,35 +30,12 @@ do_math(A,B) ->
     random:uniform(10),
     A =:= B.
 
-.
-
-do_string() ->
-    Str1 = "hello",
-    Str2 = "world",
-    io:fwrite("~p ~p \n", [Str1,Str2]),
-    io:fwrite(io_lib:format("~s ~s \n", [Str1,Str2])),
-    io:fwrite(concat(Str1,Str2)),
-    chr(Str1,$h) == 1.
-
 do_tuple() ->
     Data = {1,2,3},
     {A,B,C} = {1,2,3},
     {D,_,_} = {1,2,3},
     A == D.
 
-do_list() ->
-    List1 = [1,2,3],
-    List2 = [4,5,6],
-    [H|T]=[hd(List3 = List1 ++ List2)|List1],
-    H == 1,
-    List4 = [N || N <- List1, N rem 2 == 0 ],
-    io:fwrite(List3),
-    CityWeather = [{wonju,20},{seoul,15},{busan,39},{daegu,44}],
-    HotPlace = [{City, Temp} || {City,Temp} <- CityWeather, Temp >= 30 ].
-
-do_list2() ->
-    List1 = [1,2,3],
-    List2 = [2*N || N <- List1].
 
 do_if(X) ->
     if X < 5 -> preschool
