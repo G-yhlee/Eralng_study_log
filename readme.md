@@ -4,7 +4,7 @@
      code book
 + ```hello_world``` [[hello_world]] example.
 + ```tail_recursion``` [[tail_recursion]] example.
-+ ```basic_calculation``` [[basic_calculation]] example.
++ ```define``` [[define]] example.
 + ```basic_calculation``` [[basic_calculation]] example.
 + ```basic_calculation``` [[basic_calculation]] example.
 + ```basic_calculation``` [[basic_calculation]] example.
@@ -15,7 +15,7 @@
 
 [tail_recursion]: /code_book/tail_recursion.md
 [hello_world]: /code_book/hello_world.md
-[basic_calculation]: /code_book/basic_calculation.md
+[define]: /code_book/define.md
 [basic_calculation]: /code_book/basic_calculation.md
 [basic_calculation]: /code_book/basic_calculation.md
 [basic_calculation]: /code_book/basic_calculation.md
