@@ -14,7 +14,7 @@ do_hello2(X)->
         french -> 'Bonjour';
         german -> 'Gutentak';
         english -> hello
-    end
+    end.
 
 
 
